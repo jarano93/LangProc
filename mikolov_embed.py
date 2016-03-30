@@ -62,5 +62,20 @@ def prep_context(seq, c_rad):
         wc_data.append((word, context))
     return wc_data
 
-def emebdding_matrix(ayylmao):
-    pass
+def optimize_matrix(matrix, wc_data, hot_len, N, TOL):
+    mem = np.zeros_like(matrix)
+    old = matrix
+    for n in xrange(N):
+        grad = np.zeros_like(matrix)
+
+        # actual math here
+        for i in xrange(len(wc_data):
+            
+
+        # adagrad
+        mem += np.square(grad)
+        old = new
+        new = new - grad / np.sqrt(1e-8 + mem)
+        if la.norm(np.absolute(new - old), 2) < TOL:
+            break
+    return new
