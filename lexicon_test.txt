@@ -1,0 +1,5 @@
+This is a test to see how well splitting works.
+I don't want commas, double quotes, newlines, or periods.
+"GET MEME'D ON"
+I do want single quotes tho tbh fam.
+what about commas?  Not them also!  Same with exclamations!

@@ -1,0 +1,1 @@
+So, the idea behind this LangProc git is to set up a Neural Machine Translator
